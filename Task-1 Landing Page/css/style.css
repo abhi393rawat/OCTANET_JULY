@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url(/Image/andreas-wagner-8H5kNkYmJYQ-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+nav{
+    display: flex;
+    margin: 0 12px;
+    font-size: 3.5vh;
+    align-items: center;
+}
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding-bottom: 14px
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    /* position: relative; */
+    display: block;
+    width: 50px;
+    /* height: 50px; */
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(10px, 0);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #0077B5;
+}
+
+h1{
+    padding: 20px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.main{
+    display: flex;
+    margin-left: 20vw;
+}
+.main a{
+    padding:0px 3vw;
+    color: white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.main a:hover{
+    color:rgba(109, 7, 7, 0.889);
+}
+
+.headline{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 200px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:200px;
+    font-family: 'Allura', cursive;
+    color:white;
+}
+.para{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    height: 75px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:50px;
+    color:white;
+}
+.para1{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 8%;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:25px;
+    color:white;
+}
+.know{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 12%;
+    padding-top: 26px;
+}
+.know a{
+    padding: 5px 10px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:45px;
+    color:white;
+    border-radius: 30px;
+    background-color:red;
+    text-decoration: none;
+    border-color:black;
+    border-width: 100px;
+}
+.know a:hover{
+    background-color:blue;
+    box-shadow: 12px 12px rgba(0, 0, 0, 0.645);
+}
